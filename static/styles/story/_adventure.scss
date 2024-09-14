@@ -1,0 +1,117 @@
+.adventure {
+  margin-top: 35px;
+
+  &__title {
+    font-family: "Roboto";
+    font-weight: 400;
+    line-height: 1.625;
+    color: #434343;
+
+    p {
+      font-family: "Changa One";
+      font-size: 32px;
+      margin-bottom: 10px;
+    }
+  }
+
+  &__content {
+    margin-top: 35px;
+    margin-bottom: 71px;
+    display: flex;
+
+    &__left {
+      max-width: 455px;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      flex-direction: column;
+      max-height: 481px;
+      gap: 16px;
+
+      div {
+        border-radius: 8px;
+        max-width: 220px;
+        cursor: pointer;
+
+        &:first-child {
+          width: 456px;
+          height: 481px;
+          background: url("../images/story/advanture1.png") no-repeat center;
+          background-size: cover;
+        }
+
+        &:nth-child(2) {
+          width: 220px;
+          height: 261px;
+          background: url("../images/story/advanture2.png") no-repeat center;
+          background-size: cover;
+        }
+
+        &:nth-child(3) {
+          width: 220px;
+          height: 201px;
+          background: url("../images/story/advanture3.png") no-repeat center;
+          background-size: cover;
+        }
+      }
+    }
+
+    &__right {
+      padding: 36px 0px 36px 34px;
+      display: flex;
+      flex-direction: column;
+      color: #434343;
+      max-width: 455px;
+
+      div {
+        display: flex;
+        align-items: flex-start;
+
+        img {
+          margin-right: 17px;
+        }
+
+        span {
+          font-family: "Changa One";
+          font-size: 42px;
+          font-style: italic;
+          font-weight: 400;
+          line-height: 1.1;
+          letter-spacing: -0.04em;
+        }
+      }
+
+      p {
+        margin-top: 30px;
+        font-family: "Roboto";
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.625;
+      }
+
+      button {
+        margin-top: 30px;
+        background-color: #8A53FF;
+        border-radius: 4px;
+        border: none;
+        max-width: 165px;
+        width: 100%;
+        padding: 14px 0;
+        font-family: "Roboto";
+        font-size: 16px;
+        font-weight: 400;
+        color: #ffffff;
+      }
+    }
+  }
+
+  span {
+    padding-right: 10px;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.625;
+    color: #434343;
+  }
+}

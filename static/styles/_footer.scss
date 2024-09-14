@@ -1,0 +1,26 @@
+.footer {
+  padding: 32px 0;
+  max-width: 100vw;
+  display: flex;
+  justify-content: center;
+
+  &-content {
+    display: flex;
+    justify-content: space-between;
+    font-family: "Roboto";
+    font-size: 14px;
+    color: #939EB4;
+
+    &-right {
+      display: flex;
+
+      p {
+        margin-left: 32px;
+
+        &:first-child {
+          margin-left: 0;
+        }
+      }
+    }
+  }
+}

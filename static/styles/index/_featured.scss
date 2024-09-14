@@ -4,6 +4,10 @@
     display: flex;
     justify-content: space-between;
 
+    img {
+      width: 46.5%;
+    }
+
     &__description {
       padding: 30px;
       display: flex;
@@ -35,19 +39,18 @@
         color: #8A53FF;
         font-family: "Roboto";
 
-        ellipse {
-          fill-opacity: 1;
-        }
-
-        path {
-          fill: #ffffff;
-        }
-
         svg {
           margin-right: 12px;
+
+          ellipse {
+            fill-opacity: 1;
+          }
+
+          path {
+            fill: #ffffff;
+          }
         }
       }
     }
-
   }
 }
