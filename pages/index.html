@@ -9,19 +9,19 @@
 <body>
 
 <header class="header">
-    <div class="header-content container120">
-        <div class="header-content__block-logo">
-            <p>Talking</p>
-            <span>Travel</span>
+    <div class="header__content container120">
+        <div class="header__content__block-logo">
+            <a href="./index.html"><p>Talking</p></a>
+            <a href="./index.html"><span>Travel</span></a>
         </div>
-        <div class="header-content__navbar">
-            <div class="header-content__navbar-block-link">
+        <div class="header__content__navbar">
+            <div class="header__content__navbar__block-link">
                 <a style="color: #8A53FF" href="./index.html">Home</a>
                 <a href="./story.html">Story</a>
-                <a>Gallery</a>
-                <a>Contact Us</a>
+                <a href="#">Gallery</a>
+                <a href="#">Contact Us</a>
             </div>
-            <div class="header-content__navbar-block-img">
+            <div class="header__content__navbar__block-img">
                 <span class="search"></span>
                 <span class="profile"></span>
             </div>
@@ -29,68 +29,72 @@
     </div>
 </header>
 
+
 <section class="hero__wrap">
     <div class="hero container140">
         <div class="hero__block">
-            <div class="hero__block-panel__description">
+            <div class="hero__panel__description">
                 <p><span>Let’s talk</span> about your next trip!</p>
                 Share your favorite travel destination and we will feature it in our next blog!
             </div>
-            <a href="#highlights" class="hero__block-panel__button">
+            <div class="hero__panel__button">
                 <button>Share your story</button>
-                <div>
-                    <img src="../static/icons/play.svg" alt="">
-                    Watch highlights
-                </div>
-            </a>
+                <a href="#highlights">
+                    <div>
+                        <img src="../static/icons/play.svg" alt="">
+                        Watch highlights
+                    </div>
+                </a>
+            </div>
         </div>
     </div>
 </section>
 
+
 <section id="highlights" class="featured container140">
     <div class="featured__content">
         <img src="../static/images/Featured.jpg">
-        <div class="featured__content__description">
+        <div class="featured__description">
             <span>Featured Destination</span>
             <p>Our swiss adventure blog</p>
             Visiting the swiss alps? Want to know the requirements on <br> travelling to Switzerland during the
             pandemic? Our
             blog might <br> help!
-            <div>
+            <a href="./story.html">
                 <svg width="37" height="36" viewBox="0 0 37 36" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <ellipse cx="18.1685" cy="18" rx="18" ry="18" fill="#8A53FF" fill-opacity="0.12"/>
                     <path d="M24.5096 16.4267C25.843 17.1965 25.843 19.121 24.5096 19.8908L16.0215 24.7915C14.6881 25.5613 13.0215 24.599 13.0215 23.0594L13.0215 13.2581C13.0215 11.7185 14.6881 10.7563 16.0215 11.5261L24.5096 16.4267Z"
                           fill="#8A53FF"/>
                 </svg>
-                Watch now!
-            </div>
+                <p>Watch now!</p>
+            </a>
         </div>
     </div>
 </section>
 
 <section class="discover container120">
     <div class="discover__content">
-        <div class="discover__content__title">
+        <div class="discover__title">
             <p>Join our adventures</p>
             <span>Discover the world with us</span>
         </div>
-        <div class="discover__content__block">
-            <div class="discover__content__block__images">
+        <div class="discover__block">
+            <div class="discover__images">
                 <img src="../static/images/discover1.jpg" alt="">
                 <span>Iceland</span>
                 <p>Discover</p>
             </div>
-            <div class="discover__content__block__images">
+            <div class="discover__images">
                 <img src="../static/images/discover2.jpg" alt="">
                 <span>Italy</span>
                 <p>Discover</p>
             </div>
-            <div class="discover__content__block__images">
+            <div class="discover__images">
                 <img src="../static/images/discover3.jpg" alt="">
                 <span>Dubai</span>
                 <p>Discover</p>
             </div>
-            <div class="discover__content__block__images">
+            <div class="discover__images">
                 <img src="../static/images/discover4.jpg" alt="">
                 <span>Patagonia</span>
                 <p>Discover</p>
@@ -98,6 +102,7 @@
         </div>
     </div>
 </section>
+
 
 <section class="travels_form__wrap">
     <div class="travels_form">
@@ -141,20 +146,19 @@
     </div>
 </section>
 
-<section class="recent_section container120">
-    <div class="recent_section__title">
+<section class="recent-section container120">
+    <div class="recent-section__title">
         <p>catch up to our posts</p>
         <span>Recent story entries</span>
     </div>
-    <div class="recent_section__content">
-        <div class="recent_section__content-left">
-            <img src="../static/images/recent_section1.jpg" alt="">
-            <div class="recent_section__content-left__description">
+    <div class="recent-section__content">
+        <div class="recent-section__content-left">
+            <img src="../static/images/recent_section1.jpg" alt="Zermatt, Switzerland">
+            <div class="recent-section__content-left__description">
                 <div>
                     <span>Zermatt, Switzerland</span>
                     Marvel on the beauty of the iconic Matterhorn. Find the best places to stay that has the best views
-                    of
-                    this peak...
+                    of this peak...
                 </div>
                 <div>
                     <svg width="37" height="36" viewBox="0 0 37 36" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -165,46 +169,50 @@
                 </div>
             </div>
         </div>
-        <div class="recent_section__content-right">
-            <div class="recent_section__content-right__block">
-                <img src="../static/images/recent_section2.jpg" alt="">
-                <div class="recent_section__content-right__block-text">
+        <div class="recent-section__content-right">
+            <div class="recent-section__content-right__block">
+                <img src="../static/images/recent_section2.jpg" alt="Tuscany, Italy">
+                <div class="recent-section__content-right__block-text">
                     <span>Tuscany, Italy</span>
-                    The amazing Tuscany is home to famous Renaissance art and architecture and a vast scenic
-                    landscape. <p>view full blog...</p>
+                    The amazing Tuscany is home to famous Renaissance art and architecture and a vast scenic landscape.
+                    <p>view full blog...</p>
                 </div>
             </div>
-            <div class="recent_section__content-right__block">
-                <img src="../static/images/recent_section3.jpg" alt="">
-                <div class="recent_section__content-right__block-text">
+            <div class="recent-section__content-right__block">
+                <img src="../static/images/recent_section3.jpg" alt="Kyoto, Japan">
+                <div class="recent-section__content-right__block-text">
                     <span>Kyoto, Japan</span>
-                    Kyoto is well known for its temples, gardens, Shinto shrines and wooden houses. It’s time to
-                    visit tokyo. <p>view full blog...</p>
+                    Kyoto is well known for its temples, gardens, Shinto shrines and wooden houses. It’s time to visit
+                    tokyo.
+                    <p>view full blog...</p>
                 </div>
             </div>
-            <div class="recent_section__content-right__block">
-                <img src="../static/images/recent_section4.jpg" alt="">
-                <div class="recent_section__content-right__block-text">
+            <div class="recent-section__content-right__block">
+                <img src="../static/images/recent_section4.jpg" alt="Lofoten Islands, Norway">
+                <div class="recent-section__content-right__block-text">
                     <span>Lofoten Islands, Norway</span>
                     Featuring razor-sharp peaks housing the arctic landscape. This astonishing island is perfect for
-                    your next postcard. <p>view full blog...</p>
+                    your next postcard.
+                    <p>view full blog...</p>
                 </div>
             </div>
         </div>
     </div>
 </section>
 
+
 <footer class="footer">
-    <div class="footer-content container120">
-        <span class="footer-content-left">© 2022, Talking Travel. All Rights Reserved.</span>
-        <div class="footer-content-right">
-            <p>Home</p>
-            <p>Blog</p>
-            <p>Gallery</p>
-            <p>Contact Us</p>
+    <div class="footer__content container120">
+        <span class="footer__content__left">© 2022, Talking Travel. All Rights Reserved.</span>
+        <div class="footer__content__right">
+            <a href="./index.html">Home</a>
+            <a href="#">Blog</a>
+            <a href="#">Gallery</a>
+            <a href="#">Contact Us</a>
         </div>
     </div>
 </footer>
+
 
 </body>
 </html>

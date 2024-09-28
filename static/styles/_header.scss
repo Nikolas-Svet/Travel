@@ -4,13 +4,18 @@
   display: flex;
   justify-content: center;
 
-  &-content {
+  &__content {
     display: flex;
     justify-content: space-between;
 
     &__block-logo {
       display: flex;
       flex-direction: column;
+
+      a {
+        text-decoration: none;
+        cursor: pointer;
+      }
 
       p {
         font-family: "Black Signature";
@@ -26,7 +31,7 @@
     &__navbar {
       display: flex;
 
-      &-block-link {
+      &__block-link {
         color: #495367;
         display: flex;
         align-items: center;
@@ -46,6 +51,7 @@
         }
 
         a {
+          cursor: pointer;
           font-family: "Roboto";
           margin-left: 55px;
           text-decoration: none;
@@ -61,12 +67,13 @@
         }
       }
 
-      &-block-img {
+      &__block-img {
         display: flex;
         align-items: center;
         width: 100px;
 
         .search {
+          cursor: pointer;
           margin-left: 14px;
           position: relative;
           height: 16px;
@@ -88,6 +95,7 @@
         }
 
         .profile {
+          cursor: pointer;
           margin-left: 14px;
           position: relative;
           height: 18px;

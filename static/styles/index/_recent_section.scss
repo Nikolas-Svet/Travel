@@ -1,18 +1,4 @@
-.recent_section {
-  p {
-    font-family: "Roboto";
-    font-weight: 700;
-    font-size: 18px;
-    color: #8A53FF;
-    margin-bottom: 20px;
-    text-transform: uppercase;
-  }
-
-  span {
-    font-family: "Changa One";
-    color: #434343;
-  }
-
+.recent-section {
   &__title {
     margin-top: 83px;
     display: flex;
@@ -20,8 +6,19 @@
     text-align: center;
     margin-bottom: 30px;
 
+    p {
+      font-family: "Roboto";
+      font-weight: 700;
+      font-size: 18px;
+      color: #8A53FF;
+      margin-bottom: 20px;
+      text-transform: uppercase;
+    }
+
     span {
+      font-family: "Changa One";
       font-size: 39px;
+      color: #434343;
     }
   }
 
@@ -31,8 +28,14 @@
     margin-bottom: 83px;
 
     &-left {
+      display: grid;
       max-width: 560px;
       width: 100%;
+
+      img {
+        width: 100%;
+        height: 100%;
+      }
 
       &__description {
         background-color: #F9F9F9;
@@ -45,8 +48,13 @@
         font-family: "Roboto";
         line-height: 1.5;
 
-        ellipse {
-          fill-opacity: 1;
+        span {
+          font-size: 24px;
+          margin-bottom: 10px;
+          font-family: "Changa One";
+          font-weight: 400;
+          color: #434343;
+          line-height: 1.5;
         }
 
         div:first-child {
@@ -54,19 +62,19 @@
           flex-direction: column;
         }
 
-        path {
-          fill: #ffffff;
-        }
-
         svg {
+          cursor: pointer;
           margin-left: 28px;
           width: 48px;
           height: 48px;
-        }
 
-        span {
-          font-size: 24px;
-          margin-bottom: 10px;
+          ellipse {
+            fill-opacity: 1;
+          }
+
+          path {
+            fill: #ffffff;
+          }
         }
       }
     }
@@ -84,13 +92,13 @@
         margin-bottom: 16px;
         display: flex;
         justify-content: space-between;
+        align-items: center;
         font-family: "Roboto";
         line-height: 1.6;
         color: #576074;
 
-        p {
-          font-size: 16px;
-          text-transform: lowercase;
+        img {
+          margin-right: 20px;
         }
 
         &-text {
@@ -100,22 +108,26 @@
 
           p {
             display: contents;
+            cursor: pointer;
+            font-size: 16px;
+            text-transform: lowercase;
+            color: #8A53FF;
           }
 
           span {
+            font-family: "Changa One";
+            font-weight: 400;
+            color: #434343;
+            line-height: 1.5;
             margin-top: 8px;
             font-size: 24px;
             margin-bottom: 10px;
           }
         }
+      }
 
-        img {
-          margin-right: 20px;
-        }
-
-        &:last-child {
-          margin-bottom: 0;
-        }
+      &__block:last-child {
+        margin-bottom: 0;
       }
     }
   }

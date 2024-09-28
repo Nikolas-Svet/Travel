@@ -2,6 +2,7 @@
 @import "./footer";
 @import "./input";
 @import "./select";
+@import "./base";
 @import "./index/hero";
 @import "./index/featured";
 @import "./index/discover";
@@ -43,25 +44,13 @@ html {
   scroll-behavior: smooth;
 }
 
-.container120 {
-  max-width: 1240px;
-  width: 100%;
-  padding: 0 20px;
-  margin: 0 auto;
+button {
+  cursor: pointer;
 }
 
-.container140 {
-  max-width: 1240px;
-  width: 100%;
-  padding: 0 40px;
-  margin: 0 auto;
-}
-
-.container258 {
-  max-width: 964px;
-  width: 100%;
-  padding: 0 20px;
-  margin: 0 auto;
+a {
+  text-decoration: none;
+  cursor: pointer;
 }
 
 body {

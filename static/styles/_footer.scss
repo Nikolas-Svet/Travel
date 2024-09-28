@@ -4,18 +4,24 @@
   display: flex;
   justify-content: center;
 
-  &-content {
+  &__content {
     display: flex;
     justify-content: space-between;
     font-family: "Roboto";
     font-size: 14px;
     color: #939EB4;
 
-    &-right {
+    &__left {
+      color: #939EB4;
+    }
+
+    &__right {
       display: flex;
 
-      p {
+      a {
         margin-left: 32px;
+        color: #939EB4;
+        text-decoration: none;
 
         &:first-child {
           margin-left: 0;
